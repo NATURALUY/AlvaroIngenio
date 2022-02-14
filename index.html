@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link librerias -->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <!-- linnk a css -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Ingenio</title>
+</head>
+<body>
+    <header class ="container-fluid bg-primary d-flex justify-content-left">
+        <i class="fa fa-phone-alt text-light p-2 fs-5"></i>
+        <p class="text-light mb-0 p-2 fs-6 fw-bold" >095981343 </p>
+        <i class="far fa-clock text-light p-2 fs-5"></i>
+        <p class="text-light mb-0 p-2 fs-6 fw-bold">Lunes a Viernes de 09:00 20:00</p>        
+    </header> 
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <span class="text-primary fs-1 fw-bold">Ingenio</a></span>                
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>                                
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                    <button class="btn btn-primary" type="button">NewLetters</button>
+                </form>
+            </div>  
+    </nav>
+
+        <!-- SLIDER -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"     aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active  d-flex justify-content-center" data-bs-interval="3000">
+                    <img src="img/carousel-1.jpg" class="d-block w-100" alt="foto slider1" id="fotoslider1">                   
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/carousel-2.jpg" class="d-block w-100" alt="foto slider2">              
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/carousel-3.jpg" class="d-block w-100" alt="foto slider3">
+                </div>            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <!-- Fin del slider -->
+
+
+        <section class="w-50 mx-auto text-center pt-5" id="intro" >
+            <h3 class = "p-3 border-top border-3">Una empresa única para todas las necesidades de <span class="text-primary fs-1 fw-bold"> Ingeneiría</span>
+            </h3>
+            <p> <span class=" text-primary"> Ingenio</span>
+                es una empresa líder en el mercado con presencia en varios paises de Latinoamerica, somos pioneros en energías renovables y alternativas.</p>
+        </section>
+        <!-- Inicio fact descripcion breve empresa -->
+        <div class="fact">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item">
+                        <img src="img/icon-4.png" alt="Icono">
+                        <h2>Equipo Calificado</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item">
+                        <img src="img/icon-1.png" alt="Icono">
+                        <h2>Enfoque</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item">
+                        <img src="img/icon-8.png" alt="Icono">
+                        <h2>100% Éxito</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item">
+                        <img src="img/icon-6.png" alt="Icono">
+                        <h2>100% Satisfacción</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- termina secciones final -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Redes sociales -->
+    <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Redes sociales :</span>
+            </div>  
+            <div>
+                <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-google"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-github"></i></a>
+            </div>
+    </section>
+    <!-- Fin redes Sociales-->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">        
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <a href="index.html" class="text-decoration-none"><h6 class="text-primary fs-1 fw-bold p-2">Ingenio</h6></a> 
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">            
+                <h6 class="text-uppercase fw-bold mb-4">Nosotros</h6>
+                <p><a href="nosotros.html" class="text-reset">Visión</a></p>
+                <p><a href="nosotros.html" class="text-reset">Misión</a></p>
+                <p><a href="nosotros.html" class="text-reset">Equipo</a></p>
+                <p><a href="nosotros.html" class="text-reset">Responsabilidad Social</a></p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
+                <p><a href="servicios.html" class="text-reset">Estrategias Negocios</a></p>
+                <p><a href="servicios.html" class="text-reset">Dirección Proyectos</a></p>
+                <p><a href="servicios.html" class="text-reset">Investigación Mercado</a></p>
+                <p><a href="servicios.html" class="text-reset">Seguridad Negocios</a></p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3"></i>Montevideo, Galatea 307823, UY</p>
+                <p><i class="fas fa-envelope me-3"></i>info@Ingenio.com</p>
+                <p><i class="fas fa-phone me-3"></i> + 09 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 09 234 567 89</p>
+            </div>        
+        </div>                
+    </section>    
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">©2022 Copyright: By Ingenio</div>
+    </footer>
+    <!--  fin Footer -->
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+    <!-- fin script -->
+</body>
+</html>
