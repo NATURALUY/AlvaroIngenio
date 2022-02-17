@@ -184,7 +184,7 @@ font-style: italic;
 }
 
 /* Contacto html */
-.containerContacto {
+.container .Contacto {
 	max-width:600px;
 	width:100%;
 	margin:0 auto;
@@ -264,12 +264,25 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
-.containerUbicacion {
+.container .Ubicacion {
     max-width:600px;
-	width:100%;
 	margin:0 auto;
 	position:relative;
 }
+
 .mapa {    
     padding: 30px;
 }
+
+  /* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+.container .Ubicacion {
+width: 300px;
+    } 
+}  
+
+@media (min-width: 468x) {
+    .container .Ubicacion {
+    width: 200px;
+        } 
+    }  
