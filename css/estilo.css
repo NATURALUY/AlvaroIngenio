@@ -3,7 +3,11 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
+.body ::selection{
 
+    color: #FFF;
+    background-color: #0c385f;
+}
 #menu a {
     color: #2a2e2a;
     font-size: 18px;
