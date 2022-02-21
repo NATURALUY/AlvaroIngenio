@@ -203,6 +203,10 @@ div [class^=col-] {
   .container .Ubicacion {
     width: 200px;
   }
+
+  .fotoCliente {
+    width: 100px;
+  }
 }
 /* Contacto html */
 .container .Contacto {

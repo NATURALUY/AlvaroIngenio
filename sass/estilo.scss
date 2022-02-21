@@ -142,6 +142,7 @@ $letra : Arial, Helvetica, sans-serif;
 .fotoCliente {
     width: 140x;
     height: 140px;
+
 }
 /* COnfiguracion Proyectos */
 
@@ -206,6 +207,10 @@ width: 300px;
     .container .Ubicacion {
     width: 200px;
         } 
+
+    .fotoCliente {
+        width: 100px;
+    }
     }  
 
 @import "_estilocontacto.scss";
