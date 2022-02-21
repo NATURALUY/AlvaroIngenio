@@ -1,292 +1,298 @@
-
 .body {
-
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.body ::selection{
 
-    color: #FFF;
-    background-color: #0c385f;
+.body ::selection {
+  color: #FFF;
+  background-color: #0c385f;
 }
+
 #menu a {
-    color: #2a2e2a;
-    font-size: 18px;
+  color: #2a2e2a;
+  font-size: 18px;
 }
 
 #menu a :hover {
-
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.carousell-inner{
-    max-width: 39rem;
+.carousell-inner {
+  max-width: 39rem;
 }
 
 .fact {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
 }
 
 .fact .fact-item {
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 30px 0 25px 0;
-    text-align: center;
-    background: #ffffff;
-    border: 1px solid transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-    transition: .3s;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 30px 0 25px 0;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
 }
 
 .fact .fact-item:hover {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
 
 .fact .fact-item img {
-    max-height: 50px;
-    margin-bottom: 15px;
+  max-height: 50px;
+  margin-bottom: 15px;
 }
 
 .fact .fact-item h2 {
-    color: #2a2e2a;
-    font-size: 30px;
-    font-weight: 300;
-    letter-spacing: 1px;
+  color: #2a2e2a;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 /* Nosotros*/
-
 .nosotros {
-    position: relative;
-    width: 100%;
-    padding: 45px 0;
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
 }
 
 .nosotros .section-header {
-    margin-bottom: 30px;
-    margin-left: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
 }
 
 .nosotros .nosotros-img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: .5s;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
 .nosotros .nosotros-img::after {
-    position: absolute;
-    content: "";
-    top: 60px;
-    right: 60px;
-    bottom: 60px;
-    left: 60px;
-    background: transparent;
-    border: 30px solid;
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.05), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
-    z-index: 1;
+  position: absolute;
+  content: "";
+  top: 60px;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  background: transparent;
+  border: 30px solid;
+  border-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0.5%, rgba(0, 0, 0, 0.1) 0.5%, rgba(0, 0, 0, 0.1) 1%) 30;
+  z-index: 1;
 }
 
 .nosotros .nosotros-img:hover::after {
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.1), rgba(0,0,0,.1) .5%, rgba(0,0,0,.05) .5%, rgba(0,0,0,.05) 1%) 30;
+  border-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 0.5%, rgba(0, 0, 0, 0.05) 0.5%, rgba(0, 0, 0, 0.05) 1%) 30;
 }
 
 .nosotros .nosotros-img-1 {
-    position: relative;
-    height: 100%;
-    height: 100%;
-    margin: 0 150px 150px 0;
+  position: relative;
+  height: 100%;
+  height: 100%;
+  margin: 0 150px 150px 0;
 }
 
 .nosotros .nosotros-img-2 {
-    position: absolute;
-    height: 100%;
-    height: 100%;
-    top: 150px;
-    left: 150px;
-    z-index: 1;
+  position: absolute;
+  height: 100%;
+  height: 100%;
+  top: 150px;
+  left: 150px;
+  z-index: 1;
 }
 
 .nosotros .nosotros-img-1 img,
 .nosotros .nosotros-img-2 img {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .nosotros .nosotros-text p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .nosotros .nosotros-text a.btn {
-    position: relative;
-    margin-top: 15px;
-    padding: 12px 25px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #092a49;
-    border: 2px solid #99bcdd;
-    border-radius: 0;
-    background: none;
-    transition: .3s;
+  position: relative;
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #092a49;
+  border: 2px solid #99bcdd;
+  border-radius: 0;
+  background: none;
+  transition: 0.3s;
 }
 
 /* COnfiguracion Proyectos */
+div [class^=col-] {
+  padding: 10px;
+}
 
-div [class^="col-"]{
-    padding: 10px;    
+.card {
+  transition: 0.5s;
+  cursor: pointer;
 }
-.card{
-    transition:0.5s;
-    cursor:pointer;
-}
+
 .imgP {
-    height:150px;
-    width:100%;
+  height: 150px;
+  width: 100%;
 }
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
-.card h3{
-    padding: 5px;
-    color:#99bcdd;
-    text-align: center;
+
+.card h3 {
+  padding: 5px;
+  color: #99bcdd;
+  text-align: center;
 }
-.card p{
-font-style: italic;
+
+.card p {
+  font-style: italic;
 }
 
 /* Estilo servicios */
-
 .servicios {
-    position: relative;
-    width: 100%;
-    padding: 20px;
+  position: relative;
+  width: 100%;
+  padding: 20px;
 }
 
 .servicio-item {
-    position: relative;
-    width: 100%;
-    text-align: center;    
-    border: 1px solid rgba(0, 0, 0, .1);
-    margin-bottom: 30px;
-    padding: 30px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 30px;
 }
+
 .servicio-item img {
-    max-height: 50px;
-    margin-bottom: 20px;
+  max-height: 50px;
+  margin-bottom: 20px;
 }
 
 .servicio-item:hover {
-    border-color: transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  border-color: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Contacto html */
 .container .Contacto {
-	max-width:600px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
-
-#contacto input[type="text"], #contacto input[type="email"], #contacto input[type="tel"], #contacto input[type="Areas"], #contacto textarea, #contacto button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contacto input[type=text], #contacto input[type=email], #contacto input[type=tel], #contacto input[type=Areas], #contacto textarea, #contacto button[type=submit] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
 
 #contacto {
-	background:#F9F9F9;
-	padding:25px;
-	margin:50px 0;
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
 }
 
 #contacto h3 {
-	color: #12A537;
-	display: block;
-	font-size: 30px;
-	font-weight: 400;
+  color: #12A537;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 #contacto h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
 }
 
 fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
-#contacto input[type="text"], #contacto input[type="email"], #contacto input[type="tel"], #contacto input[type="Areas"], #contacto textarea {
-	width:100%;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
+#contacto input[type=text], #contacto input[type=email], #contacto input[type=tel], #contacto input[type=Areas], #contacto textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
 }
 
-#contacto input[type="text"]:hover, #contacto input[type="email"]:hover, #contacto input[type="tel"]:hover, #contacto input[type="Areas"]:hover, #contacto textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+#contacto input[type=text]:hover, #contacto input[type=email]:hover, #contacto input[type=tel]:hover, #contacto input[type=Areas]:hover, #contacto textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
 }
 
 #contacto textarea {
-	height:100px;
-	max-width:100%;
-    resize:none;
+  height: 100px;
+  max-width: 100%;
+  resize: none;
 }
 
-#contacto button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background:#12A537;
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:15px;
+#contacto button[type=submit] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #12A537;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
-#contacto button[type="submit"]:hover {
-	background:#09C;	
-	transition:background-color 0.3s ease-in-out;
+#contacto button[type=submit]:hover {
+  background: #09C;
+  transition: background-color 0.3s ease-in-out;
 }
 
-#contacto button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#contacto button[type=submit]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
 
 #contacto input:focus, #contacto textarea:focus {
-	outline:0;
-	border:1px solid #999;
+  outline: 0;
+  border: 1px solid #999;
 }
+
 .container .Ubicacion {
-    max-width:600px;
-	margin:0 auto;
-	position:relative;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.mapa {    
-    padding: 30px;
+.mapa {
+  padding: 30px;
 }
 
-  /* CSS pantalla 768px o superior */
+/* CSS pantalla 768px o superior */
 @media (min-width: 768px) {
-.container .Ubicacion {
-width: 300px;
-    } 
-}  
-
+  .container .Ubicacion {
+    width: 300px;
+  }
+}
 @media (min-width: 468x) {
-    .container .Ubicacion {
+  .container .Ubicacion {
     width: 200px;
-        } 
-    }  
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
