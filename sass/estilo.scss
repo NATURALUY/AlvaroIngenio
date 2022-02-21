@@ -139,6 +139,10 @@ $letra : Arial, Helvetica, sans-serif;
     transition: .3s;
 }
 
+.fotoCliente {
+    width: 140x;
+    height: 140px;
+}
 /* COnfiguracion Proyectos */
 
 div [class^="col-"]{
@@ -204,4 +208,5 @@ width: 300px;
         } 
     }  
 
-@import "_estilocontacto.scss"
+@import "_estilocontacto.scss";
+

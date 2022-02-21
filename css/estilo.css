@@ -132,6 +132,11 @@
   transition: 0.3s;
 }
 
+.fotoCliente {
+  width: 140x;
+  height: 140px;
+}
+
 /* COnfiguracion Proyectos */
 div [class^=col-] {
   padding: 10px;
