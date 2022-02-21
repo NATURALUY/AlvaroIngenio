@@ -1,11 +1,15 @@
 
+
+$colorBlanco : white;
+
+
 .body {
 
     font-family: Arial, Helvetica, sans-serif;
 }
 .body ::selection{
 
-    color: #FFF;
+    color: $colorBlanco;
     background-color: #0c385f;
 }
 #menu a {
@@ -15,7 +19,7 @@
 
 #menu a :hover {
 
-    color: #ffffff;
+    color: $colorBlanco;
 }
 
 .carousell-inner{
@@ -34,7 +38,7 @@
     margin-bottom: 30px;
     padding: 30px 0 25px 0;
     text-align: center;
-    background: #ffffff;
+    background: $colorBlanco;
     border: 1px solid transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
     transition: .3s;
@@ -228,7 +232,7 @@ fieldset {
 #contacto input[type="text"], #contacto input[type="email"], #contacto input[type="tel"], #contacto input[type="Areas"], #contacto textarea {
 	width:100%;
 	border:1px solid #CCC;
-	background:#FFF;
+	background:$colorBlanco;
 	margin:0 0 5px;
 	padding:10px;
 }
@@ -251,7 +255,7 @@ fieldset {
 	width:100%;
 	border:none;
 	background:#12A537;
-	color:#FFF;
+	color: $colorBlanco;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
