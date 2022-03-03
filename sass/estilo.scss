@@ -147,7 +147,6 @@ $colorBase: #126a92;
 
 }
 
-
 @for $i from 1 through 5 {
     .num-#{$i}{
             background-color: lighten($colorBase, $i *10%);
