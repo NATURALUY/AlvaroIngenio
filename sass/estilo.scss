@@ -7,7 +7,6 @@ $colorBase: #126a92;
 @import "_estilocontacto.scss";
 
 .body {
-
     font-family: $letra;
 }
 .body ::selection{
@@ -149,13 +148,13 @@ $colorBase: #126a92;
 
 @for $i from 1 through 5 {
     .num-#{$i}{
-            background-color: lighten($colorBase, $i *10%);
-            padding: 2%;
-            border: solid $colorBlanco 2px;
-            color: $colorBlanco;
-            font-size: 30px;
-        }
+        background-color: lighten($colorBase, $i *10%);
+        padding: 2%;
+        border: solid $colorBlanco 2px;
+        color: $colorBlanco;
+        font-size: 30px;
     }
+}
     
 /* COnfiguracion Proyectos */
 
@@ -182,6 +181,23 @@ div [class^="col-"]{
 .card p{
 font-style: italic;
 }
+
+$inversion:(
+    inv-1: 70%,
+    inv-2: 50%,
+    inv-3: 45%,
+);
+
+@each $inversion, $pad in $inversion {
+    .#{$inversion}{
+    background-color: #126a92;
+    width: $pad;
+    color: $colorBlanco;
+    padding: 1px;
+    border: solid 1px $colorBlanco;
+    }
+}
+
 
 /* Estilo servicios */
 

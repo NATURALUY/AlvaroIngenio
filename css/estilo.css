@@ -299,6 +299,30 @@ div [class^=col-] {
   font-style: italic;
 }
 
+.inv-1 {
+  background-color: #126a92;
+  width: 70%;
+  color: white;
+  padding: 1px;
+  border: solid 1px white;
+}
+
+.inv-2 {
+  background-color: #126a92;
+  width: 50%;
+  color: white;
+  padding: 1px;
+  border: solid 1px white;
+}
+
+.inv-3 {
+  background-color: #126a92;
+  width: 45%;
+  color: white;
+  padding: 1px;
+  border: solid 1px white;
+}
+
 /* Estilo servicios */
 .servicios {
   position: relative;
