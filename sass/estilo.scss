@@ -1,5 +1,10 @@
+
+
 $colorBlanco : white;
 $letra : Arial, Helvetica, sans-serif;
+$colorBase: #126a92;
+
+@import "_estilocontacto.scss";
 
 .body {
 
@@ -16,7 +21,6 @@ $letra : Arial, Helvetica, sans-serif;
 }
 
 #menu a :hover {
-
     color: $colorBlanco;
 }
 
@@ -142,6 +146,18 @@ $letra : Arial, Helvetica, sans-serif;
     height: 140px;
 
 }
+
+
+@for $i from 1 through 5 {
+    .num-#{$i}{
+            background-color: lighten($colorBase, $i *10%);
+            padding: 2%;
+            border: solid $colorBlanco 2px;
+            color: $colorBlanco;
+            font-size: 30px;
+        }
+    }
+    
 /* COnfiguracion Proyectos */
 
 div [class^="col-"]{
@@ -211,5 +227,5 @@ width: 300px;
     }
 }  
 
-@import "_estilocontacto.scss";
+
 
