@@ -190,14 +190,13 @@ $inversion:(
 
 @each $inversion, $pad in $inversion {
     .#{$inversion}{
-    background-color: #126a92;
+    background-color: $colorBase;
     width: $pad;
     color: $colorBlanco;
-    padding: 1px;
+    padding: 2px;
     border: solid 1px $colorBlanco;
     }
 }
-
 
 /* Estilo servicios */
 

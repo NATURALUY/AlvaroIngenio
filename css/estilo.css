@@ -303,7 +303,7 @@ div [class^=col-] {
   background-color: #126a92;
   width: 70%;
   color: white;
-  padding: 1px;
+  padding: 2px;
   border: solid 1px white;
 }
 
@@ -311,7 +311,7 @@ div [class^=col-] {
   background-color: #126a92;
   width: 50%;
   color: white;
-  padding: 1px;
+  padding: 2px;
   border: solid 1px white;
 }
 
@@ -319,7 +319,7 @@ div [class^=col-] {
   background-color: #126a92;
   width: 45%;
   color: white;
-  padding: 1px;
+  padding: 2px;
   border: solid 1px white;
 }
 
