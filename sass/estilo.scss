@@ -145,7 +145,7 @@ $colorBase: #126a92;
     height: 140px;
 
 }
-
+/*configuracion sass , publicación eventos*/
 @for $i from 1 through 5 {
     .num-#{$i}{
         background-color: lighten($colorBase, $i *10%);
@@ -155,7 +155,7 @@ $colorBase: #126a92;
         font-size: 30px;
     }
 }
-    
+
 /* COnfiguracion Proyectos */
 
 div [class^="col-"]{
