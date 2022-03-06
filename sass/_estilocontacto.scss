@@ -14,7 +14,7 @@
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
-    
+
     h4 {
 	color: #12A537;
 	display: block;
@@ -64,7 +64,7 @@ fieldset {
 }
 
 #contacto button[type="submit"]:hover {
-	background:#09C;	
+	background:#09C;
 	transition:background-color 0.3s ease-in-out;
 }
 
@@ -74,10 +74,11 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
-.container .Ubicacion {    
+
+.container .Ubicacion {
 	margin:0 auto;
-	position:relative;	
+	position:relative;
 }
-.mapa {    
-	padding: 30px;		
+.mapa {
+	padding: 30px;
 }
