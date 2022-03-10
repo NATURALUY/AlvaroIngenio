@@ -3,8 +3,9 @@
 
 $colorBlanco : white;
 $letra : Arial, Helvetica, sans-serif;
-$colorBase: #126a92;
-
+$colorBase: #126a92;    
+$colorBordes: #092a49;
+$colorBorderBoxes: rgba(0, 0, 0, .1);
 .contacto {
     position: relative;
     width: 100%;
@@ -15,14 +16,14 @@ $colorBase: #126a92;
         position: relative;
         display: flex;
         padding: 30px;
-        border: 1px solid rgba(0, 0, 0, .1);
+        border: 1px solid $colorBorderBoxes;
         margin-bottom: 30px;
         transition: .3s;
     
 }
 .contacto .contacto-info:hover {
     border-color: transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px $colorBorderBoxes;
 }
 
 .contacto .contacto-icon {
@@ -32,12 +33,12 @@ $colorBase: #126a92;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid $colorBorderBoxes;
 }
 
 .contacto .contacto-icon i {
     font-size: 18px;
-    color: #0796fe;
+    color: $colorBase;
 }
 
 .contacto .contacto-text {
@@ -50,7 +51,7 @@ $colorBase: #126a92;
 .contacto .contacto-text h3 {
     font-size: 16px;
     font-weight: 400;
-    color: #092a49;
+    color: $colorBordes;
     letter-spacing: 1px;
 }
 
@@ -62,21 +63,21 @@ $colorBase: #126a92;
 .contacto .contacto-form {
     position: relative;
     padding: 30px;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid $colorBorderBoxes;
     margin-bottom: 30px;
     transition: .3s;
 }
 
 .contacto .contacto-form:hover {
     border-color: transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px $colorBorderBoxes;
 }
 
 .contacto .contacto-form input {
     padding: 15px;
     background: none;
     border-radius: 0;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid $colorBorderBoxes;
 }
 
 .contacto .contacto-form textarea {
@@ -92,9 +93,9 @@ $colorBase: #126a92;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #092a49;
+    color: $colorBordes;
     background: none;
-    border: 2px solid #092a49;
+    border: 2px solid $colorBordes;
     border-radius: 0;
     transition: .3s;
 }
