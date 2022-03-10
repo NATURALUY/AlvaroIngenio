@@ -53,41 +53,70 @@
             </div>  
     </nav>
     <!-- Inicio Formulario -->
-    <div class="subtitulo text-primary fs-1 text-center p-2 fw-bold">Contacto</div>
-    <div class="container Contacto">
-        <form name= "Formulario" id="contacto" action="" method="post" data-netlify="true">
-            <h4>Escriba brevemente sus inquietudes nos contactaremos a la brevedad</h4>
-            <fieldset>
-                <label for="nombre">Nombre: <input placeholder="ingrese su nombre" name= "nombre" type="text" tabindex="1" required autofocus></label>
-                
-            </fieldset>
-            <fieldset>
-                <label for="mail">Correo Electronico<input placeholder="ingrese su email" name ="mail" type="email" tabindex="2" required></label>                
-            </fieldset>
-            <fieldset>
-                <label for="celular">Celular:<input placeholder="celular" name ="celular" type="tel" tabindex="3" required></label>
-                
-            </fieldset>
-            <fieldset>
-                <label for="Area">Seleccione el área que desea contactar:</label>
-                <select name="Area">
-                    <option value="Directorio">Directorio</option> 
-                    <option value="Ingenieria">Ingeniería</option> 
-                    <option value="Secretaría">Secretaría</option>
-                    <option value="Compras">Compras</option> 
-                    <option value="Ventas">Ventas</option> 
-                    <option value="Reclamos">Reclamos</option> 
-                </select>
-            </fieldset>
-            <fieldset>
-                <label for="comentarios">Ingrese sus comentatarios:</label>
-                <textarea placeholder="comentarios..." tabindex="5" required name="comentarios"></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="enviar" type="submit" id="contact-submit" data-submit="...enviando">Enviar</button>
-            </fieldset>
-        </form>      
-    </div>    
+    <div class="contacto mt-125">
+        <div class="container contacto">
+            <div class="section-header">
+                <h2 class="subtitulosUbicacion text-primary fs-1 p-2 fw-bold">Contacto</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="contacto-info">
+                        <div class="contacto-icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contacto-text">                            
+                            <h3>Nuestra Ubicación</h3>
+                            <p>Galatea 30782, Montevideo, Uruguay</p>
+                        </div>
+                    </div>
+                    <div class="contacto-info">
+                        <div class="contacto-icon">
+                            <i class="fa fa-phone-alt"></i>
+                        </div>
+                        <div class="contacto-text">
+                            <h3>Nuestro Teléfono</h3>
+                            <p>+ 09 234 567 88</p>
+                        </div>
+                    </div>
+                    <div class="contacto-info">
+                        <div class="contacto-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contacto-text">
+                            <h3>Correo</h3>
+                            <p>contacto@ingenio.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contacto-form">
+                        <div id="success"></div>
+                        <form name="formularios" id="contactForm" action="" method="post" data-netlify="true">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Nombre" required="required" data-validation-required-message="Por favor ingrese su nombre" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Correo" required="required" data-validation-required-message="Por favor ingrese su correo" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Teléfono" required="required" data-validation-required-message="Por favor ingrese su teléfono" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Escriba su mensaje" required="required" data-validation-required-message="Por favor ingrese su mensaje"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit" id="sendMessageButton">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Iframe mapa  -->
     <div class="container Ubicacion">
         <div class="subtitulosUbicacion text-primary fs-1 text-center p-2 fw-bold">Nuestra Ubicación</div>
